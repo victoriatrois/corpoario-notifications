@@ -31,12 +31,10 @@
   </dependencyManagement>
 
   <dependencies>
-    <!-- REST + JSON -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-rest-jackson</artifactId>
     </dependency>
-    <!-- Persistência: PostgreSQL + Hibernate ORM com Panache -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-orm-panache</artifactId>
@@ -45,27 +43,22 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-postgresql</artifactId>
     </dependency>
-    <!-- Migrações -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-flyway</artifactId>
     </dependency>
-    <!-- Validação -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-hibernate-validator</artifactId>
     </dependency>
-    <!-- RabbitMQ -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-messaging-rabbitmq</artifactId>
     </dependency>
-    <!-- E-mail SMTP -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-mailer</artifactId>
     </dependency>
-    <!-- OpenAPI, health e métricas Prometheus -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-smallrye-openapi</artifactId>
